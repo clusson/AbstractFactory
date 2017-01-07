@@ -1,0 +1,2 @@
+# AbstractFactory
+Design Pattern class
