@@ -14,7 +14,7 @@ public class changeOpacityDecorator implements IButton {
     @Override
     public Button createButton() {
         Button but = this._but.createButton();
-        but.setOpacity(0.5);
+        but.setOpacity(0.3);
         return but;
     }
 }
