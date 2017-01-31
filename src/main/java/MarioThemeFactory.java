@@ -6,7 +6,14 @@ import javafx.scene.control.Button;
 public class MarioThemeFactory extends Button implements IThemeFactory{
 
 	public Button getButton() {
-		return new MarioButton().createButton();
+        return new changeOpacityDecorator(new TextUpperCaseDecorator(new MarioButton())).createButton();
+
+    }
+
+	public String getName() {
+		return "Mario";
 	}
+
+
 
 }

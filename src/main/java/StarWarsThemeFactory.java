@@ -6,6 +6,10 @@ import javafx.scene.control.Button;
 public class StarWarsThemeFactory implements IThemeFactory {
 
 	public Button getButton() {
-		return new StarWarsButton().createButton();
+        return new changeOpacityDecorator(new TextUpperCaseDecorator(new StarWarsButton())).createButton();
+	}
+
+	public String getName() {
+		return "Star Wars";
 	}
 }
