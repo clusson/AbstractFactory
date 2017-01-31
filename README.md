@@ -1,6 +1,7 @@
 # AbstractFactory
-Design Pattern class
 
-Abstract Factory, multi-themes selection implementation
+####Design Pattern class
 
-Abstract Decorator (UpperCase, Opacity)
+>Abstract Factory, multi-themes selection implementation
+
+>Abstract Decorator (UpperCase, Opacity, Resize)
