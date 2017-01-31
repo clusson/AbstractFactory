@@ -8,8 +8,4 @@ public class StarWarsThemeFactory implements IThemeFactory {
 	public Button getButton() {
         return new changeSizeDecorator(new StarWarsButton()).createButton();
 	}
-
-	public String getName() {
-		return "Star Wars";
-	}
 }

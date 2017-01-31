@@ -10,10 +10,5 @@ public class MarioThemeFactory extends Button implements IThemeFactory{
 
     }
 
-	public String getName() {
-		return "Mario";
-	}
-
-
 
 }
