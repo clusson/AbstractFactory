@@ -1,4 +1,6 @@
 # AbstractFactory
 Design Pattern class
 
-Widget Factory, multi-themes selection implementation
+Abstract Factory, multi-themes selection implementation
+
+Abstract Decorator (UpperCase, Opacity)
