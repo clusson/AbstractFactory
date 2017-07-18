@@ -1,6 +1,6 @@
 # AbstractFactory
 
-####Design Pattern class
+#### Design Pattern class
 
 >**Abstract Factory**, multi-themes selection implementation
 
